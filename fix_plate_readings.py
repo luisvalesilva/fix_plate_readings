@@ -62,7 +62,6 @@ def main():
     print(Style.BRIGHT + "---------------------------------------------")
     print()
     fix_plate_readings(inputFile=args.inputFile, barcode=args.barcode)
-    #fix_plate_readings(inputFile=args.inputFile)
     print(Style.BRIGHT + "---------------------------------------------")
     print()
 
